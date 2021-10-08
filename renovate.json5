@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "apollo-open-source",
+  ],
+  "schedule": null,
+  "enabledManagers": ["npm"],
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      matchPackagePatterns: [""],
+      // Override this value set in apollo-open-source and apollo-docs back to the default.
+      // It's nice to be able to see PRs for everything in the Dependency Dashboard.
+      prCreation: "immediate",
+    },
+  ]
+}
