@@ -2,6 +2,6 @@
   "name": "renovate-reproduction-12068",
   "engines": {
     "node": ">=12",
-    "npm": "7.x"
+    "npm": "9.x"
   }
 }
